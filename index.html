@@ -14,18 +14,18 @@
         }
         
         :root {
-        --primary: #e84393; /* 玫红色 */
-        --primary-dark: #d63031; /* 深红色，用于按钮悬停 */
-        --primary-light: #fd79a8; /* 浅玫红 */
-        --secondary: #2d3436; /* 深灰色 */
-        --accent: #ffeaa7; /* 浅黄色，用于点缀 */
+        --primary: #667eea; /* 主蓝色 */
+        --primary-dark: #5a67d8; /* 深蓝色，用于按钮悬停 */
+        --primary-light: #764ba2; /* 紫色 */
+        --secondary:  #4a5568; /* 深灰色 */
+        --accent: #a78bfa; /* 浅紫色，用于点缀 */
         --light: #f5f5f5; /* 浅灰色背景 */
-        --dark: #2d3436; /* 深灰色文字 */
+        --dark: #2d3748; /* 深灰色文字 */
         --success: #00b894; /* 绿色 */
         --warning: #fdcb6e; /* 黄色 */
         --danger: #d63031; /* 红色 */
         --shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-        --gradient: linear-gradient(135deg, #2d3436, #e84393); /* 深灰到玫红 */
+        --gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%); /* 蓝到紫渐变 */
         }
 
         
@@ -181,7 +181,7 @@
         }
         
         .btn-primary {
-            background: linear-gradient(135deg, var(--accent), var(--primary-dark));
+            background: linear-gradient(135deg, var(--primary), var(--primary-light));
             color: white;
         }
         
@@ -195,7 +195,7 @@
         }
         
         .btn-secondary {
-            background: linear-gradient(135deg, #78909c, #546e7a);
+            background: linear-gradient(135deg, #718096, #4a5568);
             color: white;
         }
         
@@ -265,7 +265,7 @@
         }
         
         .score-display {
-            background: linear-gradient(135deg, var(--success), #66bb6a);
+            background: linear-gradient(135deg, var(--success), #38a169);
             color: white;
             padding: 15px;
             border-radius: 10px;
@@ -277,7 +277,7 @@
         }
         
         .fail-display {
-            background: linear-gradient(135deg, var(--danger), #ef5350);
+             background: linear-gradient(135deg, var(--danger), #c53030);
             color: white;
             padding: 15px;
             border-radius: 10px;
@@ -445,7 +445,7 @@
         }
         
         .example-btn {
-            background: linear-gradient(135deg, #aa00ff, #e040fb);
+            background: linear-gradient(135deg, #805ad5, #9f7aea);
             color: white;
         }
         
